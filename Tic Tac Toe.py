@@ -87,8 +87,8 @@ while True:
     print("Player 2!!!")
 
     while True:
-        choose_num = int(input("Choose number 0 - 8: "))
-        if a[choose_num] == 'O' or a[choose_num] == 'X' or choose_num >= 9:
+        choose_num1 = int(input("Choose number 0 - 8: "))
+        if a[choose_num1] == 'O' or a[choose_num1] == 'X' or choose_num1 >= 9:
             print('Invalid Input!! Try Again!')
         elif a[choose_num1] != 'O' or a[choose_num1] != 'X':
             a[choose_num1] = 'O'
